@@ -8,7 +8,6 @@ import cors from "cors";
 import express from "express";
 import { expressMiddleware } from "@apollo/server/express4";
 import { RedisPubSub } from "graphql-redis-subscriptions";
-import { subscribe } from "graphql";
 
 const typeDefs = `#graphql
   # Comments in GraphQL strings (such as this one) start with the hash (#) symbol.

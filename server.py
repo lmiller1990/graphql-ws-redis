@@ -10,7 +10,7 @@ def publish():
     while True:
         count += 1
         message = f"Count {count}"
-        client.publish("HELLO_CHANNEL", json.dumps({ "hello": message }))
+        client.publish("HELLO_CHANNEL", json.dumps({"hello": message}))
         time.sleep(1)
 
 
